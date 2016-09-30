@@ -1,0 +1,132 @@
+html,body{font-size:14px;font-family: "微软雅黑",Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif;}
+a,a:visited{color: inherit;}
+a:hover{color: #688C00;}
+ul,li{list-style: none;}
+.font14{font-size: 14px;}
+.font16{font-size: 16px;}
+.font18{font-size: 18px;}
+.text-nowrap{text-overflow: ellipsis;overflow: hidden;}
+.text-grey{color:#666;}
+.mb-10{margin-bottom:10px;}
+.mb-30{margin-bottom:30px;}
+.container{padding-left:5px;padding-right:5px;}
+.row{margin-left:-5px;margin-right:-5px;}
+/*顶部*/
+.navbar-top{background:#243B2B url(../images/bg.png) center top repeat-x;border-radius:0;-webkit-border-radius:0;border:0;min-height:60px;margin-bottom:0}
+.navbar-top .navbar-nav>li>a {color: #fff; padding-top: 20px; padding-bottom: 20px;}
+.navbar-top .navbar-link{margin:20px -5px;}
+.navbar-top .navbar-link>li>a {padding: 0 5px;border-right: 1px solid #688C00;}
+.navbar-top .navbar-link>li:last-child>a{border-right: none;}
+.icon-search{background: url(../images/icon-search.png) center no-repeat;display: block; width: 18px;height: 20px;}
+.navbar-top .navbar-form{margin-top:13px;}
+.navbar-form{margin-left: -5px;margin-right: -5px;}
+.glyphicon{top:3px;}
+
+/*导航*/
+.container>.navbar-header{margin-left: -5px;margin-right: -5px;}
+.navbar-menu{min-height:110px;margin-bottom: 0px;}
+.navbar-menu .navbar-toggle{margin-top: 30px;margin-right: 5px; padding:9px 5px;}
+.navbar-menu .navbar-toggle .icon-bar{background:#2b542c;}
+.navbar-menu .navbar-toggle .icon-bar{width: 25px;height: 4px;}
+.navbar-menu .navbar-collapse{margin-top:35px;border-top:none;}
+.navbar-brand{height: auto;}
+.navbar-menu .navbar-nav>li>a{color:#333;}
+
+@media (min-width:769px) and (max-width:990px){
+    .navbar-top .navbar-form{display:none;}
+}
+@media screen and (max-width:768px){
+    /*头部*/
+    .navbar-link>li, .navbar-top .navbar-nav>li {float: left;}
+    .navbar-top .navbar-link{margin:0px 10px 0px -5px;}
+    .navbar-top .navbar-icolist{margin-left:-5px;margin-right:-5px;}
+    .navbar-top .navbar-icolist>li>a{padding:5px 5px;}
+    .navbar-top .right-English{position:absolute;right:0;top:0;margin-right:0}
+    .navbar-top .right-English>li>a{padding:10px 5px;}
+    .navbar-top .navbar-nav>li>a{margin-top: 20px;padding:0 5px;}
+    .navbar-top .navbar-form{margin-top:0px; border-top:none;border-bottom:none;}
+    /*导航*/
+    .navbar-menu li{font-size: 15px;margin-left: 10px; border-bottom:1px solid #ddd;}
+    .navbar-menu li:last-child{border-bottom: none;}
+    .navbar-menu .navbar-collapse{margin-top:0px;}
+    .navbar-nav .open .dropdown-menu>li>a{padding:10px 15px;}
+    .navbar-menu .navbar-nav>li>a:hover{background:#398439; color:#fff;}
+    .navbar-menu .navbar-nav{float: none;}
+    .navbar-menu .navbar-nav>li{float:none}
+    .navbar-menu .navbar-header{float:none;}
+    .navbar-menu .navbar-header{float:none;}
+    .navbar-toggle{display: block}
+    .navbar-collapse.collapse {display: none!important;}
+}
+@media screen and (max-width:480px){
+    .navbar-top .navbar-nav>li>a{margin-top: 0px;}
+    .navbar-top .navbar-link{margin:7.5px -5px;}
+}
+
+/* 轮播图片 */
+.slideBox{ position:relative; overflow:hidden; margin:10px auto;  max-width:100%;/* 设置焦点图最大宽度 */ }
+.slideBox .hd{ position:absolute;height:15px;overflow: hidden; bottom:5px; right:0; z-index:1;}
+.slideBox .hd ul{height: auto; overflow: hidden;}
+.slideBox .hd li{ display:inline-block;text-align: center; width:15px; height: auto; font-size: 12px;color:white; padding:0; background:#333;  overflow:hidden; margin:0 6px;   }
+.slideBox .hd li.on{ background:#fff;color:#333; }
+.slideBox .bd{ position:relative; z-index:0; }
+.slideBox .bd li{ position:relative; text-align:center; }
+.slideBox .bd li img{vertical-align:top; width:100%;}/* 图片宽度100%，达到自适应效果 */
+.slideBox .bd li a{ -webkit-tap-highlight-color:rgba(0,0,0,0);  }  /* 去掉链接触摸高亮 */
+.slideBox .bd li .tit{ display:block; width:100%;  position:absolute; bottom:0; text-indent:10px; height:28px; line-height:28px;  color:#fff;  text-align:left;  }
+/*新闻*/
+.panel{border-radius: 0;}
+.page-header{margin:0; border:none;}
+.img-width{max-width:100%;height: auto;}
+.panel-success{border-top:2px solid #688C00}
+.list-news>li {padding-bottom: 15px;border-bottom: 1px solid #ddd;margin-bottom: 15px;}
+.list-news>li:last-child{border:0;padding-bottom:0;margin-bottom:0}
+.imgCon{width:120px;height:80px;}
+.imgCon img{max-width: 100%;height: auto;}
+.media-body{overflow:hidden;zoom:1;display:block;}
+@media screen and (max-width:980px){
+    .img-ctrl {float: left; width: 120px; margin: 15px 10px 0px 15px;height: 80px;overflow: hidden;}
+    .img-ctrl img{width:120px;height:80px;}
+}
+@media screen and (max-width:768px){
+    .ctrl-xs{border-top:none;}
+    .panel{margin-bottom:0;}
+    .text-grey {height:50px;}
+    .text-grey1 {height:60px;overflow: hidden}
+}
+@media screen and (max-width: 480px){
+    .img-ctrl {float: left; width: 120px; margin: 15px 10px 0px 15px;height: 80px;overflow: hidden;}
+    .img-ctrl img{width:120px;height:80px;}
+}
+/*焦点关注*/
+.margin-top20{margin-top:20px;}
+.page-jiaodian{border:none;border-top: 2px solid #285e8e;height: 230px;}
+.page-jiaodian .page-header{padding:15px;}
+.page-jiaodian .text-grey{height: auto;overflow: hidden;padding-top: 0;}
+.page-jiaodian .panel-body{padding:0px 15px 15px;}
+.page-jiaodian img{max-width:100%;height: auto;}
+/*专题*/
+.zuanti img{max-width:100%;height: auto;}
+.zuanti-header{padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #666;}
+.mediatitle{white-space:nowrap;text-overflow: ellipsis;width: 80%;}
+/*新闻列表*/
+.newlist-header{margin-top: 10px;}
+.newslist{border:0;border-top:1px solid #666;}
+.newslist  .list li a{padding:5px 0;display:block;}
+.newslist  .list li{ border-bottom:1px solid #eee;}
+/*底部*/
+.bottom{background-color:#F6F6F6;padding:50px 0 10px;}
+.bottom .list>li>a{display: block;padding:5px 0;overflow: hidden;text-overflow: ellipsis;}
+.ico_wechat{background: url("../images/icon60-wechat.png");display: block;width:60px;height:60px;}
+.footer{background:#398439;color:#fff;padding:20px 0 10px;margin-bottom:0;}
+.footer .navbar-nav>li>a{color:#fff;}
+@media screen and (max-width: 768px){
+    .bottom .col-xs-4 {text-align: center;}
+    .footer .navbar-nav li{float:left;}
+    .footer .nav>li>a{padding:10px 0 10px 15px}
+    .footer .pull-right{float:none!important;}
+}
+@media screen and (min-width: 768px){
+    .footer .pull-right{float:none!important;}
+}
+
