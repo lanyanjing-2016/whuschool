@@ -75,7 +75,7 @@ ul,li{list-style: none;}
 .slideBox .bd li a{ -webkit-tap-highlight-color:rgba(0,0,0,0);  }  /* 去掉链接触摸高亮 */
 .slideBox .bd li .tit{ display:block; width:100%;  position:absolute; bottom:0; text-indent:10px; height:28px; line-height:28px;  color:#fff;  text-align:left;  }
 /*新闻*/
-.panel{border-radius: 0;}
+.panel{border-radius: 0;box-shadow:none;}
 .page-header{margin:0; border:none;}
 .img-width{max-width:100%;height: auto;}
 .panel-success{border-top:2px solid #688C00}
@@ -105,6 +105,9 @@ ul,li{list-style: none;}
 .page-jiaodian .text-grey{height: auto;overflow: hidden;padding-top: 0;}
 .page-jiaodian .panel-body{padding:0px 15px 15px;}
 .page-jiaodian img{max-width:100%;height: auto;}
+@media screen and (max-width:767px){
+    .page-jiaodian{height: auto;}
+}
 /*专题*/
 .zuanti img{max-width:100%;height: auto;}
 .zuanti-header{padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #666;}
@@ -129,4 +132,16 @@ ul,li{list-style: none;}
 @media screen and (min-width: 768px){
     .footer .pull-right{float:none!important;}
 }
-
+/***************列表页***********************/
+.wrap_middle{margin-top:10px;}
+.wrap_middle .li_active{background:#ccc;}
+.container-header{border-bottom:1px solid #ddd; }
+.h4_links{font-size:18px;color:#214E1B;margin-top:20px;}
+.wrap_middle .list_links_group .list-group-item{margin-top:10px;}
+.container-header .sp_title{font-size:24px;color:#214E1B; border-bottom:1px solid #214E1B;display: inline-block;padding-bottom:5px;}
+.breadcrumb{background:transparent;}
+.introduction{padding:10px 0}
+.introduction p{text-indent:2rem;text-align: justify}
+.second_list>li{float:none;border-bottom:1px solid #ddd;padding-top:10px;}
+.second_list>li span{color:#ccc;margin-right:5px;}
+.second_list>li a{padding:10px 5px;}
