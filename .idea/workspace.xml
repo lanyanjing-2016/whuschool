@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45947824-f92b-458d-bb97-13986b63b833" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.html" afterPath="$PROJECT_DIR$/list.html" />
-    </list>
+    <list default="true" id="45947824-f92b-458d-bb97-13986b63b833" name="Default" comment="" />
     <ignored path="whuschool.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
